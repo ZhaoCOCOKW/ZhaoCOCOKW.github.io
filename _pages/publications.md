@@ -5,12 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+[**Device-Cloud Collaborative Learning Framework for Efficient Unknown Object Detection**](https://dl.acm.org/doi/epdf/10.1145/3746027.3755681)
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+Zhao, Kewei, Xiaowei Hu, and Qinya Li. "Device-Cloud Collaborative Learning Framework for Efficient Unknown Object Detection." Proceedings of the 33rd ACM International Conference on Multimedia. 2025.
